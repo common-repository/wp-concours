@@ -1,0 +1,189 @@
+.olyosconc {
+    background: #F9F9F9;
+    padding: 8px;
+}
+
+.stitched {
+    border: 2px dashed #E69100;
+    box-shadow: 0 0 0 8px #F9F9F9;
+    margin: 8px;
+}
+
+.olyosconc-message {
+    background: #C9E6EF;
+    color: #116CFF;
+    margin: 8px;
+    padding: 8px;
+}
+
+.olyosconc-message.success {
+    background: #C9EFCD;
+    color: #4C7504;
+}
+
+.olyosconc-message.warning {
+    background: #F9EEAE;
+    color: #E07C0A;
+}
+
+.olyosconc-message.error {
+    background: #EFD0D6;
+    color: #FF194B;
+}
+
+.olyosconc h2,
+.olyosconc h3 {
+    text-align: center;
+    color: #093C54;
+}
+
+.olyosconc h2 {
+    margin-bottom: 32px;
+}
+
+.olyosconc h3 {
+    margin: 32px 0 16px 0;
+}
+
+.olyosconc ul {
+    margin-left: 20px;
+}
+
+.olyosconc .concours-date {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    /*color: #A8A8A8;*/
+    clear: both;
+}
+
+#description_separator {
+    clear: both;
+}
+
+
+/* Social networks */
+
+.olyosconc .social-box {
+    text-align: center;
+}
+
+.olyosconc .twitter-tweet-rendered {
+    display: inline-block !important;
+}
+
+#concours-form>div {
+    margin-bottom: 16px;
+}
+
+#concours-form>div:last-child {
+    margin-bottom: 0;
+}
+
+#concours-form input {
+    margin-bottom: 0;
+}
+
+#concours-form .newsletter-field input {
+    margin: 0;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+#concours-form .newsletter-field label {
+    vertical-align: middle;
+}
+
+.olyosconc .submit-field {
+    text-align: center;
+}
+
+.olyosconc .button-primary {
+    width: 100%;
+    max-width: 400px;
+}
+
+.olyosconc .contest-terms {
+    padding-top: 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #A8A8A8;
+}
+
+.olyos-copyright {
+    display: block;
+    text-align: right;
+    color: #6c6c6c;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.olyos-copyright img {
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.olyos-copyright a {
+    color: #6c6c6c;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+@media (min-width: 600px) {
+    .olyosconc {
+        padding: 16px;
+    }
+    .olyosconc .firstname-field,
+    .olyosconc .lastname-field {
+        display: inline-block;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 50%;
+    }
+    .olyosconc .firstname-field {
+        padding-right: 8px;
+    }
+    .olyosconc .lastname-field {
+        padding-left: 8px;
+    }
+}
+
+
+/*******************/
+/*Styles de thème*/
+/*******************/
+
+.olyosconc input[type="text"] {
+    background: #fcfcfc;
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    border: 1px solid #d1d1d1;
+    border-radius: 2px;
+    color: #686868;
+    /*padding: 0.625em 0.4375em;*/
+    width: 100%;
+}
+
+.olyosconc input[type="text"]:focus {
+    background-color: #fff;
+    border-color: #007acc;
+    color: #1a1a1a;
+    outline: 0;
+}
+
+.olyosconc .button-primary {
+    background: #1a1a1a;
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+    font-family: Montserrat, "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.84375em 0.875em 0.78125em;
+    text-transform: uppercase;
+}
+
+.olyosconc .button-primary:hover {
+    background: #007acc;
+}

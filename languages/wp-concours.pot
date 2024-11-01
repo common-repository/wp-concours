@@ -1,0 +1,602 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-05 10:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: olyos-concours.php:133 olyos-concours.php:133 olyos-concours.php:207
+#: includes/settings_config.php:56 includes/admin_column.php:60
+msgid "Informations"
+msgstr ""
+
+#: olyos-concours.php:134 olyos-concours.php:134 olyos-concours.php:208
+msgid "Contests list"
+msgstr ""
+
+#: olyos-concours.php:135 olyos-concours.php:135 olyos-concours.php:219
+#: includes/concours_page.php:26
+msgid "Add new contest"
+msgstr ""
+
+#: olyos-concours.php:136 olyos-concours.php:136 olyos-concours.php:210
+#: includes/settings_page.php:12
+msgid "Settings"
+msgstr ""
+
+#: olyos-concours.php:137 includes/participants_list_page.php:46
+msgid "Pick winners"
+msgstr ""
+
+#: olyos-concours.php:147 olyos-concours.php:154 olyos-concours.php:161
+#: olyos-concours.php:168 olyos-concours.php:175
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: olyos-concours.php:209 class/olyos_concours_list.php:74
+msgid "View participants"
+msgstr ""
+
+#: olyos-concours.php:260
+msgid "No id attribute found."
+msgstr ""
+
+#: olyos-concours.php:267
+msgid "Shortcode ID unknown: "
+msgstr ""
+
+#: olyos-concours.php:302 class/olyos_concours_shortcode.php:265
+msgid "Thanks for your participation"
+msgstr ""
+
+#: olyos-concours.php:306 class/olyos_concours_shortcode.php:269
+msgid "Your participation to this contest have been registered !"
+msgstr ""
+
+#: olyos-concours.php:314
+msgid "E-mail sent to : "
+msgstr ""
+
+#: olyos-concours.php:316
+msgid "Could not send e-mail to : "
+msgstr ""
+
+#: includes/settings_config.php:22
+msgid "Mail to participants"
+msgstr ""
+
+#: includes/settings_config.php:39
+msgid "Send mail"
+msgstr ""
+
+#: includes/settings_config.php:48
+msgid "Mail body"
+msgstr ""
+
+#: includes/settings_config.php:69
+msgid "We provide you with a very simple default stylesheet"
+msgstr ""
+
+#: includes/settings_config.php:80
+msgid ""
+"Automatically send an e-mail to participants when they fill the form and "
+"click on the submit button"
+msgstr ""
+
+#: includes/settings_config.php:93
+msgid "Send me the saved email"
+msgstr ""
+
+#: includes/settings_config.php:98
+msgid ""
+"The test e-mail is sent to the address in the General settings. Be sure to "
+"save your modifications before sending the email."
+msgstr ""
+
+#: includes/settings_config.php:101
+msgid "E-mails are sent using the WordPress function \"wp_mail\"."
+msgstr ""
+
+#: includes/settings_config.php:102
+msgid ""
+" The time it gets to receive that e-mail depends on your server's "
+"configuration (usually 1 to 15min)"
+msgstr ""
+
+#: includes/settings_config.php:105
+#, php-format
+msgid ""
+"Some questions ? You can leave a message on the support forum of our <a "
+"href=\"%s\" target=\"_blank\">WordPress Plugin page</a>."
+msgstr ""
+
+#: includes/settings_config.php:111
+msgid ""
+"Configure the mail that is being sent when someone participate in one of "
+"your contest."
+msgstr ""
+
+#: includes/list_concours_page.php:13
+msgid "List of your contests"
+msgstr ""
+
+#: includes/list_concours_page.php:14
+msgid ""
+"To insert a new contest in a page or post, use the following shortcode :"
+msgstr ""
+
+#: includes/concours_edit_display_form.php:9
+msgid "Your contest name"
+msgstr ""
+
+#: includes/concours_edit_display_form.php:15
+msgid "Shortcode : "
+msgstr ""
+
+#: includes/concours_edit_display_form.php:27
+msgid "Contest date : "
+msgstr ""
+
+#: includes/concours_edit_display_form.php:29
+msgid "From : "
+msgstr ""
+
+#: includes/concours_edit_display_form.php:30
+msgid "To : "
+msgstr ""
+
+#: includes/concours_edit_display_form.php:41
+msgid "Social block title : "
+msgstr ""
+
+#: includes/concours_edit_display_form.php:45
+msgid "Facebook : "
+msgstr ""
+
+#: includes/concours_edit_display_form.php:48
+msgid "Insert the iframe of your Facebook page. "
+msgstr ""
+
+#: includes/concours_edit_display_form.php:48
+msgid "See documentation"
+msgstr ""
+
+#: includes/concours_edit_display_form.php:52
+msgid "Twitter : "
+msgstr ""
+
+#: includes/concours_edit_display_form.php:55
+msgid "Insert the url of your tweet."
+msgstr ""
+
+#: includes/concours_edit_display_form.php:67
+msgid "Form block title : "
+msgstr ""
+
+#: includes/concours_edit_display_form.php:72
+msgid "Display newsletter checkbox : "
+msgstr ""
+
+#: includes/concours_edit_display_form.php:83
+msgid "Contest terms : "
+msgstr ""
+
+#: includes/concours_edit_display_form.php:97
+msgid "Save contest"
+msgstr ""
+
+#: includes/infos_concours_page.php:7
+msgid "Plugin informations"
+msgstr ""
+
+#: includes/infos_concours_page.php:13
+msgid ""
+"This plugin allows you to easily generate contests in WordPress. You can "
+"easily create a marketing game for your visitors and integrate it wherever "
+"you like on your website in a few clicks. Whether it's in a page or in a "
+"post, you can simply integrate it with a shortcode."
+msgstr ""
+
+#: includes/infos_concours_page.php:14
+msgid "Functionality"
+msgstr ""
+
+#: includes/infos_concours_page.php:16
+#, php-format
+msgid ""
+"You can create as many contest as you want and see the list in the \"<a "
+"href=\"%s\">Contests list</a>\" tab"
+msgstr ""
+
+#: includes/infos_concours_page.php:17
+msgid "You can customize your \"contest block\" as you want"
+msgstr ""
+
+#: includes/infos_concours_page.php:18
+msgid "Insert your Facebook and Twitter to maximize your community"
+msgstr ""
+
+#: includes/infos_concours_page.php:19
+msgid "Choose a validity duration for your contest"
+msgstr ""
+
+#: includes/infos_concours_page.php:20
+#, php-format
+msgid "When your contest is closed, you can <a href=\"%s\">Pick winners</a>"
+msgstr ""
+
+#: includes/infos_concours_page.php:21
+msgid ""
+"If you want to go further in your digital strategy, you can contact us at "
+msgstr ""
+
+#: includes/infos_concours_page.php:23
+msgid "Tutorial"
+msgstr ""
+
+#: includes/infos_concours_page.php:25
+msgid "French laws concerning contests :"
+msgstr ""
+
+#: includes/infos_concours_page.php:30
+msgid "Laws concerning contests :"
+msgstr ""
+
+#: includes/infos_concours_page.php:32
+msgid ""
+"Please follow the rules of your own country regarding contests creation and "
+"participation."
+msgstr ""
+
+#: includes/participants_list_page.php:11
+msgid "Actions to realize on participants"
+msgstr ""
+
+#: includes/participants_list_page.php:19
+msgid "1 - Select your contest"
+msgstr ""
+
+#: includes/participants_list_page.php:20
+msgid ""
+"Select a contest to pick winners or have a list of subscription to your "
+"newsletter."
+msgstr ""
+
+#: includes/participants_list_page.php:22
+msgid "All"
+msgstr ""
+
+#: includes/participants_list_page.php:33
+msgid "Select contest"
+msgstr ""
+
+#: includes/participants_list_page.php:41
+msgid "2 - Pick winners"
+msgstr ""
+
+#: includes/participants_list_page.php:42
+msgid ""
+"Insert in the field below the number of winners to your contest. Winners "
+"will be randomly picked."
+msgstr ""
+
+#: includes/participants_list_page.php:54
+msgid "3 - Generate a list \"Optin\" of Newsletter"
+msgstr ""
+
+#: includes/participants_list_page.php:55
+msgid ""
+"Generate a list of subscriptions to your newsletter (from the contest "
+"selected in step 1)"
+msgstr ""
+
+#: includes/participants_list_page.php:58
+msgid "Generate"
+msgstr ""
+
+#: includes/participants_list_page.php:74
+#: includes/participants_list_page.php:90
+msgid "You have to select a contest"
+msgstr ""
+
+#: includes/participants_list_page.php:102
+msgid "List of participants to your contests"
+msgstr ""
+
+#: includes/admin_column.php:7
+msgid "Rate this plugin"
+msgstr ""
+
+#: includes/admin_column.php:9
+msgid "Thanks for rating this plugin to thank us ! It's free and we need you !"
+msgstr ""
+
+#: includes/admin_column.php:11
+msgid "Vote"
+msgstr ""
+
+#: includes/admin_column.php:16
+msgid "About us"
+msgstr ""
+
+#: includes/admin_column.php:18
+msgid "Wordpress plugins creation - Nantes Web Agency"
+msgstr ""
+
+#: includes/admin_column.php:22
+msgid "Nantes Web Agency"
+msgstr ""
+
+#: includes/admin_column.php:22
+msgid "Digital strategy, custom creation of corporate and e-commerce websites."
+msgstr ""
+
+#: includes/admin_column.php:26
+msgid "Expertise and support for your <strong>digital strategy</strong>"
+msgstr ""
+
+#: includes/admin_column.php:27
+msgid ""
+"Creation of custom <strong>corporate</strong> and <strong>e-commerce</strong>"
+" websites"
+msgstr ""
+
+#: includes/admin_column.php:28
+msgid "Wordpress & Prestashop <strong>Plugins</strong> Development"
+msgstr ""
+
+#: includes/admin_column.php:29
+msgid "Social networks & SEO <strong>support</strong>"
+msgstr ""
+
+#: includes/admin_column.php:31 includes/admin_column.php:32
+#: includes/admin_column.php:44
+msgid "Contact us"
+msgstr ""
+
+#: includes/admin_column.php:37
+msgid "News web, webdesign, graphic design"
+msgstr ""
+
+#: includes/admin_column.php:45
+msgid "Visit Blog"
+msgstr ""
+
+#: includes/admin_column.php:51
+msgid "Community"
+msgstr ""
+
+#: includes/admin_column.php:52
+msgid "Join a community of more than 20 000 people !"
+msgstr ""
+
+#: includes/admin_column.php:61
+msgid "Developed and tested from WP version : 4.7 and above"
+msgstr ""
+
+#: includes/admin_column.php:62
+msgid "Warning"
+msgstr ""
+
+#: includes/admin_column.php:62
+msgid ""
+"If you decide to suppress this plugin, it will also delete all contests and "
+"participants from your website."
+msgstr ""
+
+#: includes/admin_column.php:63
+msgid ""
+"A more advanced version of this plugin will soon be available. We'll make "
+"sure to inform you."
+msgstr ""
+
+#: includes/concours_page.php:26
+msgid "Modify contest"
+msgstr ""
+
+#: includes/process_concours_form.php:26
+msgid "Error while saving to database"
+msgstr ""
+
+#: includes/process_concours_form.php:35
+msgid "Contest Modified."
+msgstr ""
+
+#: includes/admin_header.php:7
+msgid "WordPress Contest Plugin"
+msgstr ""
+
+#: includes/admin_header.php:8
+msgid ""
+"Easily create your contests in WordPress with the plugin WordPress Contest, "
+"created by the Olyos  Web Agency"
+msgstr ""
+
+#: includes/settings_page.php:20
+msgid "Settings Saved"
+msgstr ""
+
+#: class/olyos_concours_form.php:65
+msgid "Dates must be filled."
+msgstr ""
+
+#: class/olyos_concours_form.php:70
+msgid "Could not process start date string format."
+msgstr ""
+
+#: class/olyos_concours_form.php:74
+msgid "Could not process end date string format."
+msgstr ""
+
+#: class/olyos_concours_form.php:80
+msgid "You cannot have your contest end before it starts."
+msgstr ""
+
+#: class/olyos_concours_form.php:84
+msgid "Values are OK"
+msgstr ""
+
+#: class/olyos_concours_shortcode.php:15
+msgid "Id is not an int: "
+msgstr ""
+
+#: class/olyos_concours_shortcode.php:29
+msgid "Id not in database: "
+msgstr ""
+
+#: class/olyos_concours_shortcode.php:50
+#, php-format
+msgid "Contest from %s to %s"
+msgstr ""
+
+#: class/olyos_concours_shortcode.php:62
+msgid "Could not fetch twitter url."
+msgstr ""
+
+#: class/olyos_concours_shortcode.php:89
+msgid "Could not register your participation, try again."
+msgstr ""
+
+#: class/olyos_concours_shortcode.php:102
+msgid "By "
+msgstr ""
+
+#: class/olyos_concours_shortcode.php:103
+msgid "Website creation agency - Nantes"
+msgstr ""
+
+#: class/olyos_concours_shortcode.php:104
+msgid "Blog news design"
+msgstr ""
+
+#: class/olyos_concours_shortcode.php:116 class/olyos_participants_list.php:73
+msgid "Firstname"
+msgstr ""
+
+#: class/olyos_concours_shortcode.php:117 class/olyos_participants_list.php:74
+msgid "Lastname"
+msgstr ""
+
+#: class/olyos_concours_shortcode.php:119 class/olyos_participants_list.php:75
+msgid "Email"
+msgstr ""
+
+#: class/olyos_concours_shortcode.php:122
+msgid "Subscribe to our newsletter"
+msgstr ""
+
+#: class/olyos_concours_shortcode.php:125
+msgid "Try to win!"
+msgstr ""
+
+#: class/olyos_concours_shortcode.php:134
+msgid "You already tried."
+msgstr ""
+
+#: class/olyos_concours_shortcode.php:141
+msgid "Your subscription has been received."
+msgstr ""
+
+#: class/olyos_concours_shortcode.php:148
+msgid "Contest not yet started."
+msgstr ""
+
+#: class/olyos_concours_shortcode.php:155
+msgid "Contest already finished."
+msgstr ""
+
+#: class/olyos_participants_list.php:14
+msgid "Participant"
+msgstr ""
+
+#: class/olyos_participants_list.php:15
+msgid "Participants"
+msgstr ""
+
+#: class/olyos_participants_list.php:71 class/olyos_concours_list.php:113
+msgid "ID"
+msgstr ""
+
+#: class/olyos_participants_list.php:72
+msgid "Contest ID"
+msgstr ""
+
+#: class/olyos_participants_list.php:76
+msgid "Newsletter"
+msgstr ""
+
+#: class/olyos_participants_list.php:77
+msgid "IP"
+msgstr ""
+
+#: class/olyos_concours_list.php:14
+msgid "Contest"
+msgstr ""
+
+#: class/olyos_concours_list.php:15
+msgid "Contests"
+msgstr ""
+
+#: class/olyos_concours_list.php:60
+msgid "Edit"
+msgstr ""
+
+#: class/olyos_concours_list.php:86
+msgid "Ended"
+msgstr ""
+
+#: class/olyos_concours_list.php:88
+msgid "Not started"
+msgstr ""
+
+#: class/olyos_concours_list.php:90
+msgid "Currently running"
+msgstr ""
+
+#: class/olyos_concours_list.php:114
+msgid "Name"
+msgstr ""
+
+#: class/olyos_concours_list.php:115
+msgid "Shortcode"
+msgstr ""
+
+#: class/olyos_concours_list.php:116
+msgid "Participant count"
+msgstr ""
+
+#: class/olyos_concours_list.php:117
+msgid "State"
+msgstr ""
+
+#: class/olyos_concours_list.php:133
+msgid "Delete"
+msgstr ""
+
+#. Name of the plugin
+msgid "WP Concours"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Organize contests : personalize rules and content, generate a list of "
+"participants and randomly pick winners."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.olyos.fr"
+msgstr ""
+
+#. Author of the plugin
+msgid "Olyos - Web Agency"
+msgstr ""

@@ -1,0 +1,321 @@
+#concours-header {
+    margin-bottom: 15px;
+}
+
+#concours-header::before {
+    content: "";
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    background-image: url("../img/logo.png");
+    vertical-align: middle;
+}
+
+#concours-header p {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#concours-header span {
+    display: block;
+}
+
+#concours-header span:first-child {
+    font-size: 22px;
+}
+
+/*
+* 2 columns
+*/
+#concours-content-main {
+    width: 60%;
+    float: left;
+}
+#concours-content-aside {
+    width: calc(40% - 20px);
+    float: left;
+    margin-left: 20px;
+}
+
+@media (max-width: 1000px) {
+    #concours-content-main {
+        float: none;
+        width: 100%;
+    }
+    #concours-content-aside {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/*
+* Tab
+*/
+#concours-add-tab {
+    background-color: #0085ba;
+    color: #fff;
+}
+
+#concours-add-tab:hover {
+    background-color: #008ec2;
+}
+
+/*
+* Right column
+*/
+#side-sortables .postbox {
+    padding: 15px 30px;
+}
+
+#side-sortables h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 0 15px;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+#side-sortables ul {
+    margin-left: 10px;
+}
+
+#side-sortables hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 15px;
+}
+
+#side-sortables .voter h3 {
+    margin-bottom: 12px;
+}
+
+#side-sortables .voter p {
+    text-align: center;
+}
+
+#side-sortables .voter .stars {
+    color: #ffb900;
+    font-size: 24px;
+    margin: 0;
+}
+
+#side-sortables .voter #rate-plugin {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    background-color: #ffb900;
+    color: #fff;
+    text-shadow: 1px 1px 1px #9d7303;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 6px 0;
+}
+
+#side-sortables .voter #rate-plugin:hover {
+    background-color: #f0ae00;
+}
+
+#olyosfr > a:first-child, #olybopfr > a {
+    display: block;
+    color: #444;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+#olyosfr > a > img, #olybopfr > a > img {
+    display: inline-block;
+}
+
+#olyosfr > a > div, #olybopfr > a > div {
+    display: inline-block;
+    width: calc(100% - 65px);
+    margin-left: 10px;
+}
+
+#olyosfr h4, #olybopfr h4 {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+#olyosfr p, #olybopfr p {
+    margin: 0;
+    line-height: 1.2;
+}
+
+#concours-content-aside .side-button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 6px 0;
+}
+
+#contact-us {
+    background-color: #67C124;
+    text-shadow: 1px 1px 1px #3A7112;
+}
+
+#contact-us:hover {
+    background-color: #5BAB1F;
+}
+
+#visit-blog {
+    background-color: #0c6c97;
+    text-shadow: 1px 1px 1px #093c54;
+}
+
+#visit-blog:hover {
+    background-color: #0e577a;
+}
+
+#side-sortables .community p {
+    text-align: center;
+}
+#side-sortables .facebook,
+#side-sortables .twitter {
+    display: inline-block;
+    height: 26px;
+    width: 100%;
+    max-width: 124px;
+    line-height: 26px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #777;
+    padding-left: 26px;
+    text-decoration: none;
+}
+#side-sortables .facebook {
+    background-image: url("../img/fb.png");
+}
+
+#side-sortables .twitter {
+    background-image: url("../img/twitter.png");
+}
+
+/*
+* Pages
+*/
+.toplevel_page_concours-infos .postbox ul {
+    margin-left: 32px;
+}
+
+.toplevel_page_concours-infos .postbox li {
+    list-style: initial;
+}
+
+.toplevel_page_concours-infos .postbox iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    .toplevel_page_concours-infos .postbox iframe {
+        width: 300px;
+        height: 168px;
+    }
+}
+
+.wp-concours_page_concours #concours-shortcode {
+    text-align: right;
+}
+
+.wp-concours_page_concours #concours-shortcode input {
+    background-color: #67C124;
+    color: #fff;
+    font-size: 18px;
+}
+
+.wp-concours_page_concours #wp-description-wrap {
+    padding-top: 35px;
+    margin-bottom: 20px;
+}
+
+.wp-concours_page_concours #social-title {
+    width: 100%;
+}
+
+.wp-concours_page_concours #social_options textarea {
+    width: 100%;
+}
+
+.wp-concours_page_concours #form-title {
+    width: 100%;
+}
+
+.wp-concours_page_concours #contest-terms {
+    width: 100%;
+}
+
+.olyos-green {
+    color: #72C626;
+    font-weight: 600;
+}
+
+.wp-concours_page_concours-participant-list .choice-box {
+    max-width: 440px;
+    float: left;
+    width: calc(33.33% - 12px);
+    margin-right: 12px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.wp-concours_page_concours-participant-list .choice-box .button-primary {
+    width: 100%;
+}
+
+.wp-concours_page_concours-participant-list #select-concours select,
+.wp-concours_page_concours-participant-list #winners-number {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.wp-concours_page_concours-participant-list #select-newsletter p {
+    margin-bottom: 54px;
+}
+
+@media (max-width: 1020px) {
+    .wp-concours_page_concours-participant-list .choice-box {
+        float: none;
+        width: auto;
+        margin-right: 0;
+    }
+}
+
+.wp-concours_page_concours-participant-list .message {
+    clear: both;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    padding: 12px;
+}
+
+/*Page settings*/
+#concours-settings-form > .form-table {
+    min-width: 255px;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+}
+
+#concours-settings-form > .form-table th {
+    padding-left: 10px;
+}
+
+#concours-settings-form > .form-table td {
+    padding-left: 10px;
+}
